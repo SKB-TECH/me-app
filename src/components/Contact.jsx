@@ -6,6 +6,12 @@ import  {EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
+//service ID:service_akipcyq
+//connect to:shakokinyamba201@gmail.com
+//template_xgyoanm
+//public key:JanCYir95_5X4NXGG
+//private key: qeEgcLejf9QWjIFNvLyMl
+
 
 const Contact = () => {
   const formRef=useRef()
@@ -15,8 +21,45 @@ const Contact = () => {
     message:""
   });
  const [loading,setLoading]=useState(false);
-const handleChange=()=>{}
-const handleSubmit=()=>{}
+
+const handleChange=(e)=>{
+
+  const {name,value}=e.target;
+  setForm({...form,[name]:value});
+
+}
+const handleSubmit=(e)=>{
+  e.preventDefault();
+  setLoading(true);
+
+  emailjs.send(
+    'service_akipcyq',
+    'template_xgyoanm',{
+      from_name:form.name,
+      to_name:"Benjamin",
+      from_email:form.email,
+      to_email:'shakokinyamba201@gmail.com',
+      message:form.message
+    },
+    'JanCYir95_5X4NXGG'
+    )
+    .then(()=>{
+      setLoading(false);
+      formRef.current.reset();
+      alert("Thank you I will get back to you sonn as possible !!")
+      setForm({
+        name:"",
+        email:"",
+        message:""
+      })
+    
+    },(error)=>{
+      setLoading(false);
+      console.log(error)
+      alert('Something went Wrong !!')
+    })
+
+}
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
