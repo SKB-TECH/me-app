@@ -6,13 +6,6 @@ import  {EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
-//service ID:service_akipcyq
-//connect to:shakokinyamba201@gmail.com
-//template_xgyoanm
-//public key:JanCYir95_5X4NXGG
-//private key: qeEgcLejf9QWjIFNvLyMl
-
-
 const Contact = () => {
   const formRef=useRef()
   const[form,setForm]=useState({
