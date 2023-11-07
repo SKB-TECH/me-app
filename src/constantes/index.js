@@ -19,10 +19,14 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    stock,
     tripguide,
     threejs,
+    compulse,
+    cetraca,
+    ecr,
+    kweek,
+    tech,
   } from "../assets";
   
   export const navLinks = [
@@ -117,10 +121,10 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
+      company_name: "Compulse-Africa",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2021 - April 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,41 +134,38 @@ import {
     },
     {
       title: "React Native Developer",
-      company_name: "Tesla",
+      company_name: "Tech-upgrad",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "September 2022 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing and maintaining Mobile applications using React-native and other related technologies.",
+        "Collaborating with cross-functional teams including designers and other developers to create high-quality products.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "Ecr-drc",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Dec 2022 - Fev 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications using React.js, Express js and other related technologies.",
+        "Collaborating with cross-functional teams including designers  and other developers to create high-quality web site.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Full stack Developer",
-      company_name: "Meta",
+      company_name: "Freelance",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Avril 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining web applications, Mobile App using React.js , Next Js, React-Native and other related technologies.",
+        "Collaborating with cross-functional teams.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
@@ -172,93 +173,188 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Benjamin proved me wrong.",
+      name: "Doddy Matabaro",
+      designation: "Software Develop",
+      company: " Compulse",
+      image: "https://avatars.githubusercontent.com/u/77513342?v=4",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Benjamin does.",
+      name: "Leader Mushi",
+      designation: "IT",
+      company: " Rapidi",
+      image: "https://avatars.githubusercontent.com/u/82439819?v=4",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I like Benjamin by his way to challenge yourself with new situations in this coding profession",
+      name: "David Emedi",
+      designation: "CEO",
+      company: "  Tech-upgrad",
+      image: "https://media.licdn.com/dms/image/D4D03AQGSxgbyCUkHlg/profile-displayphoto-shrink_800_800/0/1689514926057?e=1704931200&v=beta&t=-9Vujphko6GDSJTFn45IbNRdITJInIC9JZg-5Gbpyns",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Compulse Job",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, jobs, and manage accounts , any company can post a new job in the platform",
       tags: [
         {
-          name: "react",
+          name: "Next js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Postgresql",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "ReduxToolKit",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Express Js",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Antd ",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: compulse,
+      source_code_link: "https://github.com/SKB-TECH",
     },
     {
-      name: "Job IT",
+      name: "Ecr-drc",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Website to promote the achievements of the construction company erc-drc, By giving visitors the opportunity to see house plans and purchase these plans online and place orders for their house plans",
       tags: [
         {
-          name: "react",
+          name: "React Js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Restapi",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ecr,
+      source_code_link:"https://github.com/SKB-TECH",
     },
     {
-      name: "Trip Guide",
+      name: "Tech-upgrad",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The website to put tech-upgrad customers in touch with each other and finally enable them to purchase IT product markets",
       tags: [
         {
-          name: "nextjs",
+          name: "React js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Nest Js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "RestaApi",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "RedaxToolKit",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: tech,
+      source_code_link: "https://github.com/SKB-TECH",
+    },
+    {
+      name: "Kweek App",
+      description:
+        "Kweek App a mobile application to connect growers and seed sellers but also growers and consumers with a secure online payment system, With Kweek App you can order, buy and sell your crops online but also receive advice on how to produce well in mass",
+      tags: [
+        {
+          name: "React-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "RestApi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Ardino",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: kweek,
+      source_code_link: "https://github.com/SKB-TECH",
+    },
+    {
+      name: "Cetraca",
+      description:
+       "Cetraca App is a mobile application that allows you to manage your cash register via mobile phone: validate exits, check entries, take cash inventories",
+      tags: [
+        {
+          name: "React-Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Php",
+          color: "red-text-gradient",
+        },
+        {
+          name: "Css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: cetraca,
+      source_code_link: "https://github.com/SKB-TECH",
+    },
+    {
+      name: "Inventory management",
+      description:
+      "Complete stock management: procurement, sales, suppliers, customers and inventories with the production of reports in PDF",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PostgreSql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RestApi",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: stock,
+      source_code_link: "https://github.com/SKB-TECH",
     },
   ];
   

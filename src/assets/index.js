@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import stock from './stock.png';
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -30,7 +30,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import logoben from './logoben.png';
-import title from './title.png'
+import title from './title.png';
+import cetraca from './cetraca.jpg';
+import compulse from './compulse.png';
+import kweek from './kweek.png';
+import ecr from './ecr.png';
+import tech from './tech.png'
+
+
+
 export {
   title,
   logo,
@@ -62,4 +70,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  cetraca, compulse,kweek,tech,ecr,stock
 };
