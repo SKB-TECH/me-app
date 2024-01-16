@@ -39,7 +39,7 @@ const handleSubmit=(e)=>{
     .then(()=>{
       setLoading(false);
       formRef.current.reset();
-      alert("Thank you I will get back to you sonn as possible !!")
+      alert("Thank you I will get back to you sonn as possible")
       setForm({
         name:"",
         email:"",
@@ -48,7 +48,7 @@ const handleSubmit=(e)=>{
     
     },(error)=>{
       setLoading(false);
-      console.log(error)
+      console.log("Eror: ",error)
       alert('Something went Wrong !!')
     })
 
