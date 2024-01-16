@@ -26,7 +26,6 @@ const FeedBackCard=({index,testimonial,name,designation,company,image})=>{
                         src={image}
                         alt="feedback" 
                         className="w-10 h-10 rounded-full object-cover"
-
                     />
                 </div>
             </div>
@@ -41,10 +40,10 @@ const Feedbacks = () => {
     <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>What others say </p>
-            <h2 className={styles.sectionHeadText }>Testmonials .  </h2>
+            <h2 className={styles.sectionHeadText }>Testmonials</h2>
         </motion.div>
     </div>
-    <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+    <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-6`}>
         {
             testimonials.map((testmonial,index)=>(
                 <FeedBackCard
